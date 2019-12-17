@@ -1,1 +1,52 @@
-body {background-color: blue
+body{
+	background: lightcoral;
+	font-family: 'Roboto';
+	font-size: 25px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.btn-primary,.reset{
+	background-color: #38d12a;
+	color: white;
+	font-family: 'Roboto';
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #202364;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: Roboto;
+}
+
+.thisChoice:hover{
+	background-color: #f740b1;
+	color: white;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
+
+
