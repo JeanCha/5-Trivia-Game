@@ -66,7 +66,8 @@ var messages = {
 }
 
 // Why in the heck won't this work!!!
-$('#startBtn').on('click', function(){
+$(document).on('click','#startBtn', function(){
+	console.log('lol')
 	$(this).hide();
 	newGame();
 });
